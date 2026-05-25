@@ -23,4 +23,5 @@ function showDescription(product) {
             description = "Product details not available.";
     }   
     document.getElementById(product).innerText = description;
+    
 }
